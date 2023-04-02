@@ -1,0 +1,2 @@
+alter table tb_ven
+	add cd_vdd int
