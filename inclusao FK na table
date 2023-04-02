@@ -1,0 +1,17 @@
+--alter table
+	add column constraint fk_cd_vdd foreign key (cd_vdd) references tb_vdd (cd_vdd)
+  
+  alter table tb_ven
+	add constraint fk_cd_vdd foreign key (cd_vdd) references tb_vdd (cd_vdd)
+  
+  
+  alter table tb_ven_item
+	add constraint fk_cd_pro foreign key (cd_pro) references tb_pro (cd_pro)
+  
+  
+  alter table tb_ven_item
+	add constraint fk_cd_ven foreign key (cd_ven) references tb_ven (cd_ven)
+  
+  
+  alter table tb_dep
+	add constraint fk_cd_vdd foreign key (cd_vdd) references tb_vdd (cd_vdd)
