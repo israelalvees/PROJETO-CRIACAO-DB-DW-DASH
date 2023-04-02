@@ -1,0 +1,8 @@
+create table TB_PRO (
+	cd_pro serial constraint pk_cd_pro primary key, 
+	nm_pro varchar(50),
+	tp_pro varchar(50),
+	und_pro int,
+	sl_pro varchar(50),
+	st_pro varchar(50)
+)
