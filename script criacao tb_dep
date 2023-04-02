@@ -1,0 +1,8 @@
+create table TB_DEP (
+	cd_dep serial constraint pk_cd_dep primary key, 
+	inep_escola int,
+	nm_dep varchar(50),
+	dt_nasc date,
+	sx_dep varchar(50),
+	cd_vdd varchar(50)
+)
