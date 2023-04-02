@@ -1,0 +1,8 @@
+create table TB_VEN_ITEM (
+	cd_ven_item serial constraint pk_cd_ven_item primary key, 
+	qt_ven int,
+	vru_ven int,
+	vrt_ven decimal(18,2),
+	cd_pro int,
+	cd_ven int
+)
