@@ -1,0 +1,7 @@
+create table TB_VDD (
+	CD_VDD serial constraint PK_CD_VDD primary key, 
+	nm_vdd varchar(50),
+	sx_vdd varchar(50),
+	per_comissao decimal(18,2),
+	mat_funcao varchar(50)
+)
