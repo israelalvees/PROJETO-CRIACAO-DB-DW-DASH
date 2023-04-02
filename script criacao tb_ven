@@ -1,0 +1,15 @@
+create table TB_VEN (
+	CD_VEN serial constraint PK_CD_VEN primary key, 
+	dt_ven date, 
+	age_cli int,
+	nm_cli varchar(50),	
+	cd_cli int,	
+	cla_cli varchar(50),	
+	sx_cli varchar(15),
+	cid_cli varchar(50),
+	estado varchar(2),
+	pai_cli varchar(50),
+	canal varchar(50),
+	deleted varchar(50),
+	st_ven varchar(50)
+)
