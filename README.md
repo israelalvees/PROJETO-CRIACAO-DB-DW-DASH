@@ -5,6 +5,7 @@
 # PROJETO CRIAÇÃO DATA BASE, DATA WAREHOUSE E DASHBOARD
 
   - OBJETIVO:
+    
         - Criar um Banco de Dados fictício, criando tabelas e populando o banco a partir de inserts.
         - Criar o Data Warehouse a partir do DB criado; seguindo os padrôes de tabelas dimensão e fato.
         - Tratar os dados, fazendo as devidas correções e em acordo com o processo de ETL.
